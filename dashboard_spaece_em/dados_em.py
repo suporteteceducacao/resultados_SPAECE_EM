@@ -330,7 +330,7 @@ st.markdown(
     f"""
     <p style='font-size: 14px;'>
         <b>Fonte:</b> SEDUC. Resultados SPAECE. Disponível em: 
-        <a href="https://www.seduc.ce.gov.br/spaece/" target="_blank">https://www.seduc.ce.gov.br/spaece/</a>. Ano 2023.
+        <a href="https://www.seduc.ce.gov.br/spaece/" target="_blank">https://www.seduc.ce.gov.br/spaece/</a>. Ano 2024.
     </p>
     """,
     unsafe_allow_html=True
