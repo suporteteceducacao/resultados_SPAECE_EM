@@ -13,8 +13,8 @@ def formatar_numero(numero):
     return str(numero).replace('.', '').replace(',', '')
 
 # Verificar se os arquivos existem
-if not os.path.exists('dashboard_spaece_5_9_ano/xls/result_spaece_EM.xlsx'):
-    st.error("Arquivo 'result_spaece_EM.xlsx' não encontrado.")
+if not os.path.exists('xls/result_spaece_EM.xlsx'):
+    st.error("Arquivo 'xls/result_spaece_EM.xlsx' não encontrado.")
     st.stop()
 
 # Carregar os datasets
