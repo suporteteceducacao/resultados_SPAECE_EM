@@ -13,8 +13,8 @@ def formatar_numero(numero):
     return str(numero).replace('.', '').replace(',', '')
 
 # Verificar se os arquivos existem
-if not os.path.exists('xls/result_spaece_EM.xlsx'):
-    st.error("Arquivo 'xls/result_spaece_EM.xlsx' não encontrado.")
+if not os.path.exists('dashboard_spaece_em/xls/result_spaece_EM.xlsx'):
+    st.error("Arquivo 'dashboard_spaece_em/xls/result_spaece_EM.xlsx' não encontrado.")
     st.stop()
 
 # Carregar os datasets
@@ -45,7 +45,7 @@ result_spaece = result_spaece.applymap(limitar_decimais)
 
 
 # Sidebar com logotipo e instruções de uso
-st.sidebar.image('dashboard_spaece_5_9_ano/img/logo_spaece.png', width=300)
+st.sidebar.image('dashboard_spaece_em/img/logo_spaece.png', width=300)
 st.sidebar.title("Instruções de Uso")
 st.sidebar.write("""
 1. Selecione o município e escola.
