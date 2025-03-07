@@ -19,7 +19,7 @@ if not os.path.exists('dashboard_spaece_em/xls/result_spaece_EM.xlsx'):
 
 # Carregar os datasets
 try:
-    result_spaece = pd.read_excel('dashboard_spaece_5_9_ano/xls/result_spaece_EM.xlsx')
+    result_spaece = pd.read_excel('dashboard_spaece_em/xls/result_spaece_EM.xlsx')
 
 except Exception as e:
     st.error(f"Erro ao carregar os arquivos: {e}")
